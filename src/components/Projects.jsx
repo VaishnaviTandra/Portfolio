@@ -17,7 +17,7 @@ function Projects() {
         "The AI Finance Platform is an intelligent and user-centric financial management solution designed to simplify budgeting, forecasting, and investment tracking. Leveraging the power of artificial intelligence and machine learning, the platform analyzes user behavior, automates expense categorization, predicts future spending trends, and provides personalized financial insights. ",
       Domain: "Web Development",
       src: Finora,
-      git:"https://github.com/VaishnaviTandra/Finora"
+      git:"https://github.com/VaishnaviTandra/FinAura"
     },
     {
       name: "VoyageR",
