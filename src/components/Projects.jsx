@@ -4,7 +4,7 @@ import VoyageR from '../assets/VoyageR.png';
 import blog from '../assets/blog.png';
 import hh from '../assets/image.png';
 import Lost from '../assets/lost.png';
-import Stock from '../assets/stock.png';
+import Stock from '../assets/Stock.png';
 import { FaGithub } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 
