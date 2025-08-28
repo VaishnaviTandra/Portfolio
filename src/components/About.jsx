@@ -19,10 +19,10 @@ function About() {
 
           {/* Tags below image */}
           <div className="flex flex-wrap justify-center gap-3 mt-6">
-            <span className="bg-green-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
+            <span className="bg-[#A3E635] text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
               Full Stack Developer
             </span>
-            <span className="bg-green-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
+            <span className="bg-[#06B6D4] text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
               UI/UX Developer
             </span>
             <span className="bg-green-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
@@ -33,16 +33,16 @@ function About() {
 
         {/* Right Side: Text */}
         <div className="text-left space-y-6">
-          <h2 className="text-green-400 text-3xl font-extrabold">Who I Am?</h2>
+          <h2 className="text-[#3B82F6] text-3xl font-extrabold">Who I Am?</h2>
           <p className="text-lg leading-relaxed text-gray-500">
-            Hello! I'm <span className="text-green-400 font-bold">Vaishnavi Tandra</span>, a
-            passionate <strong>Full Stack Developer</strong> and technology
+            Hello! I'm <span className="text-[#34D399] font-bold">Vaishnavi Tandra</span>, a
+            passionate <strong className="text-[#34D399] font-bold">Full Stack Developer</strong> and technology
             enthusiast currently pursuing my B.Tech in Computer Science and Engineering.
           </p>
           <p className="text-lg leading-relaxed text-gray-500">
             I love building impactful projects, exploring new technologies, and
             creating user-friendly interfaces. I have strong interests in
-            <span className="text-green-400"> frontend & backend development</span>, and
+            <span className="text-[#34D399] font-bold"> frontend & backend development</span>, and
             I enjoy solving challenging problems and contributing to open-source.
           </p>
           <p className="text-lg leading-relaxed text-gray-500">

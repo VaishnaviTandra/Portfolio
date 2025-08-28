@@ -67,7 +67,7 @@ function Projects() {
 
   return (
     <section id="projects" className="px-4 py-12">
-      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-gray-300">
+      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-[#3B82F6]">
         Projects
       </h2>
 
@@ -92,24 +92,24 @@ function Projects() {
             <div className="p-6 text-left">
               {/* Title + GitHub */}
               <div className="flex justify-between items-center mb-2">
-                <h3 className="text-xl font-bold">{project.name}</h3>
+                <h3 className="text-xl font-bold text-[#A8C5FF]">{project.name}</h3>
                 <a
                   href={project.git}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-gray-300"
+                  className="text-[#A8C5FF] text-xl hover:text-gray-300"
                 >
                   <FaGithub />
                 </a>
               </div>
 
               {/* Domain */}
-              <p className="text-sm text-gray-300 font-medium mb-2">
+              <p className="text-sm text-[#E3D6FF] font-medium mb-2">
                 Domain: {project.Domain}
               </p>
 
               {/* Description */}
-              <p className="text-gray-200 text-sm">{project.Description}</p>
+              <p className="text-[#B3F0FF] text-sm">{project.Description}</p>
 
               {/* Preview Link */}
               {project?.preview && (
@@ -132,7 +132,9 @@ function Projects() {
       <div className="text-center mt-6">
         <button
           onClick={() => setShowAll(!showAll)}
-          className="text-gray-300 hover:text-white font-medium transition-colors"
+          className="font-medium transition-colors 
+                     bg-gradient-to-r from-pink-400 via-fuchsia-500 to-purple-500 
+                     bg-clip-text text-transparent"
         >
           {showAll ? "Show Less" : "Show More.."}
         </button>

@@ -33,7 +33,7 @@ function Education() {
 
   return (
     <section id="education" className="px-4 py-8">
-      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-gray-300">
+      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-[#3B82F6]">
         Education
       </h2>
 
@@ -57,25 +57,25 @@ function Education() {
               }}
             />
             <div className="p-6">
-              <h3 className="text-2xl font-bold mb-2">{edu.name}</h3>
-              <p className="text-lg text-gray-300 mb-2">{edu.degree}</p>
+              <h3 className="text-xl font-bold mb-2 text-[#A8C5FF]">{edu.name}</h3>
+              <p className="text-base text-[#E3D6FF] mb-2">{edu.degree}</p>
 
               {/* Percentage */}
-              <div className="flex items-center justify-center gap-2 mt-2 text-gray-300">
+              <div className="flex items-center justify-center gap-2 mt-2 text-[#E3D6FF]">
                 <MdGrade />
-                <p className="text-lg">{edu.percentage}</p>
+                <p className="text-base">{edu.percentage}</p>
               </div>
 
               {/* Duration */}
-              <div className="flex items-center justify-center gap-2 mt-2 text-gray-300">
+              <div className="flex items-center justify-center gap-2 mt-2 text-[#E3D6FF]">
                 <IoTime />
-                <p className="text-lg">Duration: {edu.timeline}</p>
+                <p className="text-base">Duration: {edu.timeline}</p>
               </div>
 
               {/* Location */}
-              <div className="flex items-center justify-center gap-2 mt-2 text-gray-300">
+              <div className="flex items-center justify-center gap-2 mt-2 text-[#E3D6FF]">
                 <FaLocationDot />
-                <p className="text-lg">Location: {edu.location}</p>
+                <p className="text-base">Location: {edu.location}</p>
               </div>
             </div>
           </div>

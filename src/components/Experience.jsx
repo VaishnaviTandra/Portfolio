@@ -27,7 +27,7 @@ function Experience() {
 
   return (
     <section id="experience" className="px-4 py-16 min-h-screen">
-      <h2 className="text-3xl font-semibold text-center text-gray-300 mb-10">
+      <h2 className="text-3xl font-semibold text-center text-[#3B82F6] mb-10">
         Experience
       </h2>
 
@@ -53,8 +53,8 @@ function Experience() {
                     mixBlendMode: "screen",
                   }}
                 />
-                <h3 className="text-xl font-bold mb-1">{exp.name}</h3>
-                <p className="text-base text-gray-300 mb-1">Role: {exp.role}</p>
+                <h3 className="text-xl font-bold mb-1 text-[#A8C5FF]">{exp.name}</h3>
+                <p className="text-base text-[#A8C5FF] mb-1">Role: {exp.role}</p>
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
                   <IoTime />
                   <p>Duration: {exp.duration}</p>
@@ -62,7 +62,7 @@ function Experience() {
               </div>
 
               {/* Right Column: Description */}
-              <div className="md:w-2/3 text-gray-300">
+              <div className="md:w-2/3 text-[#B3F0FF]">
                 <ul className="list-disc pl-5 space-y-2 text-base text-justify">
                   {exp.descriptionPoints.map((point, i) => (
                     <li key={i}>{point}</li>

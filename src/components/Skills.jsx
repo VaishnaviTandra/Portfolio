@@ -23,7 +23,7 @@ function Skills() {
 
   return (
     <section id="skills" className="py-16 px-4">
-      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-gray-300">
+      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-[#3B82F6]">
         Technologies & Tools in My Skillset
       </h2>
 
