@@ -3,44 +3,56 @@ import about from "../assets/vaish.jpg";
 
 function About() {
   return (
-    <div className="flex items-center justify-center px-6 py-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl w-full">
+    <section
+      id="about"
+      className="flex items-center justify-center  py-10 "
+    >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl w-full">
         
         {/* Left Side: Image + Tags */}
-        <div className="flex flex-col items-center space-y-4">
+        <div className="flex flex-col items-center space-y-6">
           <img
             src={about}
             alt="Vaishnavi"
-            className="rounded-full w-80 h-80 object-cover shadow-lg"
+            className="rounded-full w-72 h-72 md:w-80 md:h-80 object-cover shadow-lg border-4 border-green-400"
           />
 
           {/* Tags below image */}
-          <div className="flex flex-wrap justify-center gap-3 mt-4">
-            <span className="bg-purple-700 text-white px-4 py-2 rounded-md text-sm font-semibold shadow">
+          <div className="flex flex-wrap justify-center gap-3 mt-6">
+            <span className="bg-green-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
               Full Stack Developer
             </span>
-            <span className="bg-purple-700 text-white px-4 py-2 rounded-md text-sm font-semibold shadow">
+            <span className="bg-green-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
               UI/UX Developer
             </span>
-            <span className="bg-purple-700 text-white px-4 py-2 rounded-md text-sm font-semibold shadow">
+            <span className="bg-green-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-semibold shadow-md">
               Competitive Programmer
             </span>
           </div>
         </div>
 
         {/* Right Side: Text */}
-        <div className="text-left">
-          <h2 className="text-green-400 text-2xl font-bold mb-4">WHO I AM?</h2>
-          <p className="text-lg leading-relaxed">
-            My name is Vaishnavi Tandra. I am currently pursuing B.Tech 3rd year in Computer Science and Engineering. I am passionate about technology and enthusiastic about learning and building impactful projects.
-            <br /><br />
-            I am especially interested in full stack development, and I enjoy working on both frontend and backend technologies. I’m a fast learner with a strong desire to explore new tools and frameworks.
-            <br /><br />
-            I love solving problems, contributing to open-source, and continuously pushing my boundaries. I'm looking forward to opportunities where I can grow, collaborate, and contribute meaningfully.
+        <div className="text-left space-y-6">
+          <h2 className="text-green-400 text-3xl font-extrabold">Who I Am?</h2>
+          <p className="text-lg leading-relaxed text-gray-500">
+            Hello! I'm <span className="text-green-400 font-bold">Vaishnavi Tandra</span>, a
+            passionate <strong>Full Stack Developer</strong> and technology
+            enthusiast currently pursuing my B.Tech in Computer Science and Engineering.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-500">
+            I love building impactful projects, exploring new technologies, and
+            creating user-friendly interfaces. I have strong interests in
+            <span className="text-green-400"> frontend & backend development</span>, and
+            I enjoy solving challenging problems and contributing to open-source.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-500">
+            My goal is to collaborate with dynamic teams, learn continuously,
+            and build products that make a difference. Let's create something
+            amazing together!
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

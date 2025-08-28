@@ -6,7 +6,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 
 function Hero() {
   return (
-    <div className=" min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-10 gap-10">
+    <div className="  flex flex-col md:flex-row items-center justify-center px-9 py-12 gap-10 mb-10">
       {/* Left Text Content */}
 <div className="text-left">
   <h1 className="font-extrabold text-3xl md:text-5xl leading-tight text-black">
@@ -118,7 +118,7 @@ function Hero() {
     &nbsp;&nbsp;<span className="text-green-400">hireable:</span> <span className="text-pink-500">function</span><span className="text-white">() &#123;</span>{'\n'}
 &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-pink-500">return:</span> <span className="text-white">&#40;</span> <span className="text-blue-400">this.hardWorker</span> <span className="text-white">&&</span>{'\n'}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">this.problemSolver</span> <span className="text-white">&&</span>{'\n'}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">this.skills.length &gt;= 6</span> <span className="text-white">&#41;</span>;{'\n'}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">this.skills.length &gt;= 10</span> <span className="text-white">&#41;</span>;{'\n'}
 &nbsp;&nbsp;<span className="text-white">&#125;</span>{'\n'}
 
  <span className="text-white">&#125;</span> 

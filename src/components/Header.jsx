@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -12,11 +11,11 @@ function Header() {
 
         {/* Right - Nav Links */}
         <nav className="space-x-8 hidden md:flex text-white text-sm font-semibold uppercase">
-          <Link to="/about" className="hover:text-green-400">About</Link>
-          <Link to="/experience" className="hover:text-green-400">Experience</Link>
-          <Link to="/skills" className="hover:text-green-400">Skills</Link>
-          <Link to="/education" className="hover:text-green-400">Education</Link>
-          <Link to="/projects" className="hover:text-green-400">Projects</Link>
+          <a href="#about" className="hover:text-green-400">About</a>
+          <a href="#experience" className="hover:text-green-400">Experience</a>
+          <a href="#skills" className="hover:text-green-400">Skills</a>
+          <a href="#education" className="hover:text-green-400">Education</a>
+          <a href="#projects" className="hover:text-green-400">Projects</a>
         </nav>
       </div>
     </header>
