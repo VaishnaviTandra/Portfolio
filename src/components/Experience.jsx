@@ -7,7 +7,7 @@ function Experience() {
       img: "https://tse1.mm.bing.net/th/id/OIP.FUkSCC1EPxlzviAXC6BJQgHaHa?pid=Api&P=0&h=180",
       name: "Infosys SpringBoard",
       role: "AI Intern",
-      duration: "Aug 2025 - Present",
+      duration: "Aug 2025 - Oct 2025",
       descriptionPoints: [
         "Developed a machine learning-based system to predict crop yield using environmental and soil parameters like rainfall, temperature, and nutrient content.",
         "Applied data preprocessing, feature engineering, and trained regression models for accurate predictions."

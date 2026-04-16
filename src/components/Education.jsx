@@ -9,7 +9,7 @@ function Education() {
       img: "https://static.vecteezy.com/system/resources/previews/012/818/553/original/graduation-cap-icon-education-symbol-and-sign-illustration-free-vector.jpg",
       name: "VNR VJIET",
       degree: "B.Tech in Computer Science",
-      percentage: "9.58 CGPA",
+      percentage: "9.54 CGPA",
       timeline: "2023 - Present",
       location: "Hyderabad, India"
     },
